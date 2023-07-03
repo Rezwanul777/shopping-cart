@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212a;
+    color: white;
+    padding: 25px 60px;
+    margin-bottom: 30px;
+}
+
+.cart{
+    padding: 5px;
+    background-color: #fff;
+    color:#2125;
+    font-size: 30px;
+    border-radius: 5px;
+    position: relative;
+   
+}
+
+.cartAmount{
+    font-size: 18px;
+    background-color: red;
+    position: absolute;
+    top: -14px;
+    right: -8px;
+    color: #fff;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4,219px);
+    grid-gap:30px;
+    justify-content: center;
+}
+.item{
+    border: 2px solid #212529;
+    border-radius: 3px;
+   
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+.price-quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn{
+
+    padding: 8px 12px;
+    background-color: darksalmon;
+    
+}
+
+.btn:hover{
+    background-color: azure;
+}
+
+.text-center{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.homeBtn,
+.removeAll{
+    background-color: teal;
+    color: #fff;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+ /* css for x that means cross */
+.bi-x-lg{
+    color: blue;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.bi-dash-lg {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .bi-plus-lg {
+    color: green;
+    cursor: pointer;
+  }
+
+.shoping-cart{
+    display: grid;
+    grid-template-columns: repeat(1,320px);
+    grid-gap:20px;
+    justify-content: center;
+}
+
+.cart-item{
+    border: 2px solid #212529;
+    border-radius: 2px;
+    display: flex;
+}
+
+.title-price-x{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-price{
+    display: flex;
+    gap: 18px;
+}
+
+.cart-item-price{
+    background-color: #212529;
+    color: #fff;
+    border-radius: 2px;
+    padding: 3px 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+  }
+
+
+
+/* media quiry */
+
+@media(max-width:1000px){
+    .shop{
+        display: grid;
+        grid-template-columns: repeat(2,219px);
+    }
+}
+
+@media(max-width:500px){
+    .shop{
+        display: grid;
+        grid-template-columns: repeat(1,219px);
+    }
+}
