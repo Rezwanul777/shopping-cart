@@ -1,3 +1,5 @@
-i ve included in this project localStorage
+
+PROJECT LINK:https://reztech-shopping-cart.netlify.app
+I ve included in this project localStorage
 making this project resposive
 
