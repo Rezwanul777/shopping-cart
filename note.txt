@@ -1,0 +1,3 @@
+i ve included in this project localStorage
+making this project resposive
+
